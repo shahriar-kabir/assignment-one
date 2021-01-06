@@ -1,0 +1,182 @@
+/* font-family: 'Lato', sans-serif; */
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin:0;
+    padding: 0;
+}
+/* Intro Section Start */
+.intro{
+    overflow: hidden;
+    min-height: 200px;
+}
+h1{
+    font-size: 50px;
+    color: #363958;
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+h2{
+    font-size: 60px;
+    margin-top:0px;
+    margin-bottom: 0;
+}
+.half-width p{
+    font-size:18px;
+    color: #363958;
+    margin-bottom: 40px;
+    text-align: justify;
+}
+.orange-high{
+    color:#FF8367;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+ .half-width a{
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 10px;
+}
+.about{
+    overflow: hidden;
+    min-height: 200px;
+    margin-bottom: 50px;
+}
+/* Intro Section End */
+
+
+/* Latest work start*/
+.latest-work{
+    overflow: hidden;
+    background-color: #f0f3fc;
+    min-height: 200px;
+    padding-bottom: 50px;
+    
+}
+.latest-txt{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: -30px;
+}
+.latest-box{}
+.latest-single{
+    float: left;
+    width: 27%;
+    min-height: 300px;
+    background-color: white;
+    box-shadow:5px 5px 30px gray;
+    border-radius: 10px;
+    margin: 50px 20px 50px 50px;
+}
+.single-img img{
+    width: 90%;
+    margin: 20px 20px;
+}
+.single-txt h5{
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: #4D506C;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.single-txt p{
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #4D506C;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+}
+/* Latest work End*/
+
+
+/* Inquiry Section  Start*/
+.inquiry{
+    margin: 50px 180px;
+    width: 70%;
+    position: relative;
+    margin: 100px auto;
+}
+.inq-box img{
+    width: 100%;
+}
+.inq-txt{
+    color: white;
+    font-size: 40px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+}
+.inq-btn button{
+    background-image: linear-gradient(45deg, tomato, orange);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px rgb(255, 255, 255);
+}
+.inq-btn{
+    position: absolute;
+    top: 50%;
+    left: 78%;
+    transform: translate(-50%,-50%);
+}
+/* Inquiry Section End*/
+
+
+/* Social Section Start*/
+.social{
+    padding-bottom: 50px;
+}
+.social-txt p{
+    text-align: center;
+    font-size: 18px;
+    color: #363958;
+    font-weight: 700;
+}
+.social-txt h2{
+    text-align: center;
+    font-size: 40px;
+    color: #363958;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.social-icon{
+    margin-left: 40%;
+}
+.social-icon img{
+    width: 7%;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+/* Social Section End*/
+footer{
+    height: 50px;
+    font-weight: 700;
+    background-image: linear-gradient(90deg, #5E56D3, #4D3FC9);
+    font-size: 15px;
+    color:white;
+    text-align: center;
+}
+footer p{
+    padding-top: 18px;
+}
